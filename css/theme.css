@@ -1,0 +1,62 @@
+body.light-mode{
+
+    background:#F8FAFC;
+
+    color:#111827;
+
+}
+
+body.light-mode .glass,
+body.light-mode .project-card,
+body.light-mode .skill-card,
+body.light-mode .cert-card,
+body.light-mode .achievement-card,
+body.light-mode .contact-card{
+
+    background:
+
+    rgba(255,255,255,.8);
+
+    border:
+
+    1px solid rgba(0,0,0,.08);
+
+}
+
+body.light-mode nav{
+
+    background:
+
+    rgba(255,255,255,.8);
+
+}
+
+body.light-mode input,
+body.light-mode textarea{
+
+    color:black;
+
+}
+
+body.light-mode .hero-description,
+body.light-mode .about-text,
+body.light-mode .project-description,
+body.light-mode .experience-description{
+
+    color:#4B5563;
+
+}
+
+body.light-mode #particles-js{
+
+    background:#F8FAFC;
+
+}
+
+body.light-mode .ribbon{
+
+    background:#FACC15;
+
+    color:black;
+
+}

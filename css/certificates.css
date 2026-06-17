@@ -1,0 +1,185 @@
+/*====================================
+CERTIFICATES SECTION
+====================================*/
+
+.certificates-grid{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+    margin-top:80px;
+
+}
+
+.cert-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    transition:.5s;
+
+    transform-style:preserve-3d;
+
+}
+
+.cert-card:hover{
+
+    transform:
+
+    translateY(-10px);
+
+    box-shadow:
+
+    0 0 45px
+
+    rgba(139,92,246,.3);
+
+}
+
+.cert-content{
+
+    padding:35px;
+
+}
+
+.cert-title{
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    line-height:1.5;
+
+    margin-bottom:20px;
+
+}
+
+.cert-company{
+
+    color:var(--secondary);
+
+    margin-bottom:10px;
+
+}
+
+.cert-date{
+
+    color:var(--blue);
+
+    font-weight:600;
+
+}
+
+.verified{
+
+    position:absolute;
+
+    top:20px;
+
+    right:20px;
+
+    padding:10px 15px;
+
+    border-radius:50px;
+
+    background:
+
+    rgba(16,185,129,.1);
+
+    border:
+
+    1px solid rgba(16,185,129,.4);
+
+    color:#10B981;
+
+}
+
+.view-cert-btn{
+
+    margin-top:25px;
+
+}
+
+.view-cert-btn:hover{
+
+    box-shadow:
+
+    0 0 30px
+
+    rgba(59,130,246,.5);
+
+}
+
+.pdf-icon{
+
+    width:80px;
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:25px;
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    font-size:2rem;
+
+}
+
+.cert-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-100%;
+
+    width:100%;
+
+    height:100%;
+
+    background:
+
+    linear-gradient(
+
+        90deg,
+
+        transparent,
+
+        rgba(255,255,255,.12),
+
+        transparent
+
+    );
+
+    transition:.8s;
+
+}
+
+.cert-card:hover::before{
+
+    left:100%;
+
+}

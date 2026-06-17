@@ -1,0 +1,150 @@
+.btn{
+
+    padding:16px 32px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.4s;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.btn-primary{
+
+    background:
+
+    linear-gradient(
+
+        90deg,
+
+        var(--blue),
+
+        var(--purple)
+
+    );
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 0 35px
+
+    rgba(59,130,246,.5);
+
+}
+
+.btn-secondary{
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    border:
+
+    1px solid rgba(255,255,255,.1);
+
+}
+
+.btn-secondary:hover{
+
+    background:
+
+    rgba(255,255,255,.08);
+
+}
+
+.social-btn{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    border:
+
+    1px solid rgba(255,255,255,.08);
+
+    transition:.4s;
+
+}
+
+.social-btn:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 0 30px rgba(139,92,246,.4);
+
+}
+
+.resume-btn{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.resume-btn::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-100%;
+
+    width:100%;
+
+    height:100%;
+
+    background:
+
+    linear-gradient(
+
+        90deg,
+
+        transparent,
+
+        rgba(255,255,255,.3),
+
+        transparent
+
+    );
+
+    transition:.8s;
+
+}
+
+.resume-btn:hover::before{
+
+    left:100%;
+
+}
+

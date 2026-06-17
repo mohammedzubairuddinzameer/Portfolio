@@ -1,0 +1,146 @@
+/*====================================
+LANGUAGES SECTION
+====================================*/
+
+.languages-section{
+
+    margin-top:100px;
+
+}
+
+.languages-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+    margin-top:70px;
+
+}
+
+.language-card{
+
+    position:relative;
+
+    padding:20px 40px;
+
+    border-radius:60px;
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    border:
+
+    1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    transition:.5s;
+
+    overflow:hidden;
+
+}
+
+.language-card:hover{
+
+    transform:
+
+    translateY(-10px);
+
+    box-shadow:
+
+    0 0 40px
+
+    rgba(59,130,246,.3);
+
+}
+
+.language-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-2px;
+
+    border-radius:60px;
+
+    background:
+
+    linear-gradient(
+
+        45deg,
+
+        var(--blue),
+
+        var(--purple),
+
+        var(--cyan)
+
+    );
+
+    opacity:0;
+
+    z-index:-1;
+
+    transition:.5s;
+
+}
+
+.language-card:hover::before{
+
+    opacity:1;
+
+}
+
+.language-name{
+
+    font-size:1.1rem;
+
+    font-weight:600;
+
+}
+
+.language-card{
+
+    animation:
+
+    languageFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes languageFloat{
+
+    0%{
+
+        transform:
+
+        translateY(0);
+
+    }
+
+    50%{
+
+        transform:
+
+        translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:
+
+        translateY(0);
+
+    }
+
+}
+

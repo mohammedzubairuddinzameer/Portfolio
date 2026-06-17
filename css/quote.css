@@ -1,0 +1,182 @@
+/*====================================
+QUOTE SECTION
+====================================*/
+
+.quote-section{
+
+    margin-top:120px;
+
+    position:relative;
+
+}
+
+.quote-card{
+
+    position:relative;
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:70px;
+
+    border-radius:40px;
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    border:
+
+    1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(25px);
+
+    overflow:hidden;
+
+}
+
+.quote-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-100px;
+
+    background:
+
+    radial-gradient(
+
+        rgba(59,130,246,.15),
+
+        transparent
+
+    );
+
+    z-index:-1;
+
+    filter:blur(120px);
+
+}
+
+.quote-mark-left{
+
+    position:absolute;
+
+    top:20px;
+
+    left:40px;
+
+    font-size:8rem;
+
+    color:
+
+    rgba(59,130,246,.2);
+
+}
+
+.quote-mark-right{
+
+    position:absolute;
+
+    bottom:0;
+
+    right:40px;
+
+    font-size:8rem;
+
+    color:
+
+    rgba(139,92,246,.2);
+
+}
+
+.quote-text{
+
+    font-size:2rem;
+
+    line-height:1.8;
+
+    text-align:center;
+
+    font-weight:600;
+
+}
+
+.quote-author{
+
+    margin-top:40px;
+
+    text-align:center;
+
+    color:var(--secondary);
+
+}
+
+.quote-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-2px;
+
+    border-radius:40px;
+
+    background:
+
+    linear-gradient(
+
+        45deg,
+
+        var(--blue),
+
+        var(--purple),
+
+        var(--cyan)
+
+    );
+
+    opacity:.15;
+
+    z-index:-1;
+
+}
+
+.quote-card{
+
+    animation:
+
+    quoteFloat 6s ease-in-out infinite;
+
+}
+
+@keyframes quoteFloat{
+
+    0%{
+
+        transform:
+
+        translateY(0);
+
+    }
+
+    50%{
+
+        transform:
+
+        translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:
+
+        translateY(0);
+
+    }
+
+}
+

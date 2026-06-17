@@ -1,0 +1,150 @@
+/*====================================
+ABOUT SECTION
+====================================*/
+
+.about{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.about-image{
+
+    position:relative;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.about-image::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-20px;
+
+    z-index:-1;
+
+    background:
+
+    linear-gradient(
+
+        45deg,
+
+        var(--blue),
+
+        var(--purple),
+
+        var(--cyan)
+
+    );
+
+    filter:blur(80px);
+
+    opacity:.5;
+
+}
+
+.about-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+.about-title{
+
+    font-size:3rem;
+
+    font-weight:800;
+
+}
+
+.about-text{
+
+    color:var(--secondary);
+
+    line-height:1.9;
+
+}
+
+.education-card{
+
+    padding:35px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(20px);
+
+    transition:.4s;
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 0 40px rgba(59,130,246,.2);
+
+}
+
+.achievement-boxes{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.achievement-box{
+
+    padding:25px;
+
+    background:
+
+    rgba(255,255,255,.05);
+
+    border-radius:20px;
+
+    border:
+
+    1px solid rgba(255,255,255,.08);
+
+    transition:.4s;
+
+}
+
+.achievement-box:hover{
+
+    transform:translateY(-8px);
+
+}
+

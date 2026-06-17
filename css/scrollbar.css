@@ -1,0 +1,23 @@
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:linear-gradient(
+
+        var(--blue),
+
+        var(--purple)
+
+    );
+
+    border-radius:20px;
+
+}

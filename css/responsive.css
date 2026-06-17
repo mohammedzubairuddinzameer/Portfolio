@@ -1,0 +1,151 @@
+@media(max-width:1200px){
+
+.hero-title{
+
+    font-size:3.8rem;
+
+}
+
+}
+
+@media(max-width:992px){
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.about{
+
+    grid-template-columns:1fr;
+
+}
+
+.contact-container{
+
+    grid-template-columns:1fr;
+
+}
+
+.timeline::before{
+
+    left:20px;
+
+}
+
+.timeline-item{
+
+    width:100%;
+
+    left:0 !important;
+
+    padding-left:70px;
+
+}
+
+.timeline-dot{
+
+    left:10px !important;
+
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+
+    padding:100px 5%;
+
+}
+
+.hero-title{
+
+    font-size:2.8rem;
+
+}
+
+.hero-subtitle{
+
+    font-size:1.4rem;
+
+}
+
+.profile-image{
+
+    width:250px;
+
+    height:250px;
+
+}
+
+.nav-links{
+
+    display:none;
+
+}
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.skills-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.projects-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.certificates-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.achievements-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.languages-container{
+
+    justify-content:center;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.hero-title{
+
+    font-size:2.2rem;
+
+}
+
+.quote-text{
+
+    font-size:1.3rem;
+
+}
+
+.stat-circle{
+
+    width:180px;
+
+    height:180px;
+
+}
+
+}
