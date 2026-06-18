@@ -98,3 +98,108 @@ body.light-mode .ribbon{
     color:black;
 
 }
+
+/* ===== LIGHT MODE FIX ===== */
+
+body.light-mode{
+
+background:#eef2f7;
+
+color:#111827;
+
+}
+
+
+/* Section Titles */
+
+body.light-mode .section-title{
+
+color:#111827;
+
+background:white;
+
+box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+
+/* Cards */
+
+body.light-mode .project-card,
+body.light-mode .skill-card,
+body.light-mode .stat-circle,
+body.light-mode .contact-card,
+body.light-mode .cert-card,
+body.light-mode .achievement-card,
+body.light-mode .language-card,
+body.light-mode .experience-card,
+body.light-mode .quote-card{
+
+background:white;
+
+color:#111827;
+
+border:1px solid rgba(0,0,0,.08);
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+/* Paragraphs */
+
+body.light-mode p,
+body.light-mode .hero-description,
+body.light-mode .about-text,
+body.light-mode .project-description,
+body.light-mode .experience-description,
+body.light-mode .achievement-text,
+body.light-mode .quote-author,
+body.light-mode .info-value,
+body.light-mode .stat-label{
+
+color:#4B5563;
+
+}
+
+
+/* Inputs */
+
+body.light-mode input,
+body.light-mode textarea{
+
+background:white;
+
+color:#111827;
+
+border:1px solid #d1d5db;
+
+}
+
+
+body.light-mode input::placeholder,
+body.light-mode textarea::placeholder{
+
+color:#6b7280;
+
+}
+
+
+/* Navbar */
+
+body.light-mode .navbar{
+
+background:rgba(255,255,255,.9);
+
+backdrop-filter:blur(20px);
+
+}
+
+
+/* Links */
+
+body.light-mode a{
+
+color:#2563eb;
+
+}
