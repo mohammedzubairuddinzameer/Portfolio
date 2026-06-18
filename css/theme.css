@@ -41,9 +41,12 @@ body.light-mode textarea{
 body.light-mode .hero-description,
 body.light-mode .about-text,
 body.light-mode .project-description,
-body.light-mode .experience-description{
+body.light-mode .experience-description,
+body.light-mode .stat-label,
+body.light-mode .achievement-text,
+body.light-mode .quote-author{
 
-    color:#4B5563;
+color:#374151;
 
 }
 
