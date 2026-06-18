@@ -38,21 +38,28 @@ body.light-mode textarea{
 
 }
 
-body.light-mode .hero-description,
-body.light-mode .about-text,
+body.light-mode .info-value,
 body.light-mode .project-description,
+body.light-mode .about-text,
 body.light-mode .experience-description,
-body.light-mode .stat-label,
 body.light-mode .achievement-text,
-body.light-mode .quote-author{
+body.light-mode .quote-author,
+body.light-mode .location,
+body.light-mode .hero-description{
 
-color:#374151;
+    color:#4B5563;
 
 }
 
 body.light-mode #particles-js{
 
     background:#F8FAFC;
+
+}
+
+body.light-mode .section-title{
+
+    color:#111827;
 
 }
 
